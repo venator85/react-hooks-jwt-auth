@@ -12,8 +12,7 @@ const Profile = () => {
         </h3>
       </header>
       <p>
-        <strong>Token:</strong> {currentUser.accessToken.substring(0, 20)} ...{" "}
-        {currentUser.accessToken.substr(currentUser.accessToken.length - 20)}
+        <strong>Token:</strong> {currentUser.accessToken}
       </p>
       <p>
         <strong>Id:</strong> {currentUser.id}
